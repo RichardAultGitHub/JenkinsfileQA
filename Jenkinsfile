@@ -1,9 +1,9 @@
 pipeline{
         agent any
         stages{
-            stage('Build App'){
+            stage(''){
                 steps{
-                    sh 'mvn package'
+                    sh ''
                 }
 	        }
         }
