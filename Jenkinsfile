@@ -3,18 +3,18 @@ pipeline{
         stages{
             stage('Build'){
                 steps{
-                    #sh 'mvn package'
+                    sh ''
                 }
 	        }
             stage('Docker Build'){
                 steps{
-                    #sh 'docker-compose up'
+                    sh ''
                 }
 	        }
 	        }
             stage('Run App'){
                 steps{
-                    #sh "JENKINS_NODE_COOKIE=dontKillMe nohup docker run -d ..... &"
+                    sh ""
                 }
 	        }
         }
