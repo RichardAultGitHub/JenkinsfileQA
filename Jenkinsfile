@@ -11,10 +11,10 @@ pipeline{
                     sh ''
                 }
 	        }
-	        }
-            stage('Run App'){
+            stage(''){
                 steps{
-                    sh ""
+                    sh ''
                 }
 	        }
         }
+}
